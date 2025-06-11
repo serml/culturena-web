@@ -51,4 +51,12 @@
       opacity: 0;
     }
   }
+
+  #experience {
+    padding: 10%;
+  }
+
+  .slogan {
+    line-height: 2.5rem !important;
+  }
 }

@@ -1,27 +1,27 @@
 import IconTwitter from "../icons/twitter.astro";
-import IconGithub from "../icons/github.astro";
-import IconLinkedin from "../icons/linkedin.astro";
-import IconDiscord from "../icons/discord.astro";
+import IconEventbrite from "../icons/eventbrite.astro";
+import IconFacebook from "../icons/facebook.astro";
+import IconInstagram from "../icons/instagram.astro";
 
 export const SOCIALS = [
   {
     name: "Twitter",
-    url: "https://x.com/AndrewKuktenko",
+    url: "https://x.com/culturena",
     icon: IconTwitter,
   },
   {
-    name: "Github",
-    url: "https://github.com/AndrewKuktenko",
-    icon: IconGithub,
+    name: "Instagram",
+    url: "https://instagram.com/culturena.aso/",
+    icon: IconInstagram,
   },
   {
-    name: "Linkedin",
-    url: "https://www.linkedin.com/in/andrew-kuktenko/",
-    icon: IconLinkedin,
+    name: "Eventbrite",
+    url: "https://www.eventbrite.es/o/74946537913",
+    icon: IconEventbrite,
   },
   {
     name: "Discord",
-    url: "https://discord.com/users/342345918533599236",
-    icon: IconDiscord,
+    url: "https://facebook.com/users/100090205626505/",
+    icon: IconFacebook,
   },
 ];
