@@ -20,6 +20,8 @@ jobs:
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
+      - name: Clone context-cursor dependency
+        run: git clone https://github.com/PavelLaptev/context-cursor.git src/libs/context-cursor
       - name: Install, build, and upload your site
         uses: withastro/action@v3
         # with:
